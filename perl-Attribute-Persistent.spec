@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Attribute
 %define	pnam	Persistent
-Summary:	Attribute::Persistent - Really lazy persistence
+Summary:	Attribute::Persistent - really lazy persistence
 Summary(pl):	Attribute::Persistent - bardzo leniwe zachowywanie atrybutów
 Name:		perl-Attribute-Persistent
 Version:	1.0

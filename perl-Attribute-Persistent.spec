@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Attribute
-%define	pnam	Persistent
+%define		pdir	Attribute
+%define		pnam	Persistent
 Summary:	Attribute::Persistent - really lazy persistence
 Summary(pl):	Attribute::Persistent - bardzo leniwe zachowywanie atrybutów
 Name:		perl-Attribute-Persistent

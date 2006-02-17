@@ -8,12 +8,12 @@
 Summary:	Attribute::Persistent - really lazy persistence
 Summary(pl):	Attribute::Persistent - bardzo leniwe zachowywanie atrybutów
 Name:		perl-Attribute-Persistent
-Version:	1.0
-Release:	4
+Version:	1.1
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	04253a2788a686d26cb2b428a92071b1
+# Source0-md5:	3d93ef5e3566c1bd54d4cb22ad76106a
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Attribute-Handlers-Prospective

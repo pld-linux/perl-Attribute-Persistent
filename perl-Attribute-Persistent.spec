@@ -6,7 +6,7 @@
 %define		pdir	Attribute
 %define		pnam	Persistent
 Summary:	Attribute::Persistent - really lazy persistence
-Summary(pl):	Attribute::Persistent - bardzo leniwe zachowywanie atrybutów
+Summary(pl.UTF-8):   Attribute::Persistent - bardzo leniwe zachowywanie atrybutÃ³w
 Name:		perl-Attribute-Persistent
 Version:	1.1
 Release:	1
@@ -32,12 +32,12 @@ It's useful for quick hacks when you don't care about pulling in the
 right DBM library and calling tie and so on. Its job is to reduce fuss
 for the lazy programmer at the cost of flexibility.
 
-%description -l pl
-Ten modu³ udostêpnia metodê na wyabstrahowanie zachowywania zmiennych
-tablicowych i haszy. Jest przydatnych do szybkich hacków, kiedy nie
-dba siê o wyci±ganie w³a¶ciwej biblioteki DBM, wywo³ywanie jej
-dowi±zañ itd. Zadaniem modu³u jest zredukowanie zamieszania dla
-leniwego programisty kosztem elastyczno¶ci.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia metodÄ™ na wyabstrahowanie zachowywania zmiennych
+tablicowych i haszy. Jest przydatnych do szybkich hackÃ³w, kiedy nie
+dba siÄ™ o wyciÄ…ganie wÅ‚aÅ›ciwej biblioteki DBM, wywoÅ‚ywanie jej
+dowiÄ…zaÅ„ itd. Zadaniem moduÅ‚u jest zredukowanie zamieszania dla
+leniwego programisty kosztem elastycznoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

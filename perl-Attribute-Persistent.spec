@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Attribute
 %define		pnam	Persistent
+%include	/usr/lib/rpm/macros.perl
 Summary:	Attribute::Persistent - really lazy persistence
 Summary(pl.UTF-8):	Attribute::Persistent - bardzo leniwe zachowywanie atrybutów
 Name:		perl-Attribute-Persistent
@@ -14,13 +14,14 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3d93ef5e3566c1bd54d4cb22ad76106a
+URL:		http://search.cpan.org/dist/Attribute-Persistent/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Attribute-Handlers-Prospective
 BuildRequires:	perl-Digest-MD5
 BuildRequires:	perl-MLDBM
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
